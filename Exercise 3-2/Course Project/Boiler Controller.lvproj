@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -38,6 +38,11 @@
 				<Item Name="loc_create_two_queues.png" Type="Document" URL="../documentation/loc_create_two_queues.png"/>
 				<Item Name="loc_dequeue_error_case.png" Type="Document" URL="../documentation/loc_dequeue_error_case.png"/>
 			</Item>
+			<Item Name="Notifires" Type="Folder">
+				<Item Name="Notifires.ctl" Type="VI" URL="../support/Notifires.ctl"/>
+				<Item Name="Create Notifires.vi" Type="VI" URL="../../../../Laboratorium 2/KOD/Course Project/support/Create Notifires.vi"/>
+				<Item Name="Controller to Boiler.vi" Type="VI" URL="../support/Controller to Boiler.vi"/>
+			</Item>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Boiler Controller" Type="Folder">
@@ -48,6 +53,7 @@
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/User Event - Stop.lvlib"/>
 			<Item Name="Boiler System Globals.vi" Type="VI" URL="../support/Boiler System Globals.vi"/>
+			<Item Name="Boiler System Open.vi" Type="VI" URL="../support/Boiler System Open.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
@@ -88,6 +94,8 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
+			<Item Name="Message Cluster.ctl" Type="VI" URL="../../../Course Project/support/Message Queue/Message Cluster.ctl"/>
+			<Item Name="Enqueue Message.vi" Type="VI" URL="../../../Course Project/support/Message Queue/Enqueue Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
